@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# IDE and operating system
+.idea/
+.DS_Store
+
+# Generated face recognition artifacts
+src/faceEmbeddingModels/embeddings.pickle
+src/faceEmbeddingModels/le.pickle
+src/faceEmbeddingModels/my_model.h5
+
+# Captured face data
+# Remove this rule if you intentionally want to version a sample dataset.
+datasets/
+
+# Local logs
+*.log
+src/ProceduralLog.txt
